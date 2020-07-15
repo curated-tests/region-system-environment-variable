@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "echo $VERCEL_REGION && mkdir public && echo 'test' > ./public/index.html"
+  }
+}
